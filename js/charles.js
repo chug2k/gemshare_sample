@@ -34,7 +34,8 @@
     el: $('#main'),
     events: {
       'keypress #new_gem': 'createOnEnter',
-      'click #submit_gem': 'createOrSelectGem'
+      'click #submit_gem': 'createOrSelectGem',
+      'typeahead:selected #new_gem' : 'createOrSelectGem'
     },
 
     initialize: function () {
