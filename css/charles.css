@@ -1,0 +1,31 @@
+body {
+    background-color: lightgrey;
+}
+.container {
+    width: 640px;
+}
+#main_box {
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+    border-radius: 0 0 5px 5px;
+    padding-bottom: 10px;
+}
+
+input[type="text"] {
+    border: 1px solid #999999;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px 0 inset;
+    font-size: 22px;
+    line-height: 1.4em;
+    margin-top: 20px;
+    outline: none;
+    padding: 10px;
+    width: 400px;
+}
+
+#alert_container {
+    margin-top: 20px;
+}
+.button-wrapper {
+    margin: 20px 10px 10px 10px;
+}
